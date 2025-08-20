@@ -22,7 +22,6 @@ const authRoutes = require("./routes/authroute");
 const blogRoutes = require("./routes/blogroute");
 
 
-
 // Use Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/blogs", blogRoutes);
